@@ -19,6 +19,7 @@ public class Task1_1 {
         FillLst();
         MinMaxInList();
         RemovingEvenNum();
+        NumbersAvg();
     }
 // метод заполнения и вывода списка
     private static void FillLst() {
@@ -47,6 +48,17 @@ public class Task1_1 {
             }
         }
         System.out.println(lst);
+    }
+
+    // метод выводит среднее значение
+    private static void NumbersAvg() {
+        int sum = 0;
+        for (int i = 0; i < lst.size(); i++) {
+            int num = lst.get(i);
+            sum += num;
+        }
+        double avg = (double) sum / lst.size();
+        System.out.println(avg);
     }
     }
 

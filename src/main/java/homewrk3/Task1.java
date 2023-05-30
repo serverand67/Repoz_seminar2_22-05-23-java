@@ -35,4 +35,5 @@ public class Task1 {
             // вывод списка
         System.out.println(lst);
     }
+
 }
