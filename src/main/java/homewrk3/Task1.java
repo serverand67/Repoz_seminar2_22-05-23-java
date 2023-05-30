@@ -34,6 +34,15 @@ public class Task1 {
             }
             // вывод списка
         System.out.println(lst);
+
+            // вывод среденего значения
+           int sum = 0;
+           for (int i = 0; i < lst.size(); i++){
+               int num = lst.get(i);
+               sum += num;
+           }
+        double avg = (double) sum / lst.size();
+        System.out.println(avg);
     }
 
 }
