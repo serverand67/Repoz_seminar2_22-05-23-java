@@ -1,0 +1,2 @@
+��� 30, 2023 3:03:34 PM homework2.Task4CalculatorLog main
+INFO: Результат  равен 10
