@@ -1,5 +1,12 @@
 package homewrk3;
 
+//Пусть дан произвольный список целых чисел.
+//
+//        1) Нужно удалить из него чётные числа
+//        2) Найти минимальное значение
+//        3) Найти максимальное значение
+//        4) Найти среднее значение
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -13,7 +20,7 @@ public class Task1_1 {
         MinMaxInList();
         RemovingEvenNum();
     }
-// метод заполнения списка
+// метод заполнения и вывода списка
     private static void FillLst() {
         // Заполнение списка рандомными числами
         for (int i = 0; i < 10; i++) {
@@ -22,7 +29,7 @@ public class Task1_1 {
         System.out.println(lst);
     }
 
-    // метод вывод минимального и максимального числа
+    // метод вывода минимального и максимального числа
     private static void MinMaxInList() {
         // поиск минимального числа
         System.out.println(Collections.min(lst));
@@ -30,7 +37,7 @@ public class Task1_1 {
         System.out.println(Collections.max(lst));
         }
 
-    // метод удаления четных чисел из списка
+    // метод удаления четных чисел из списка и вывода его в консоль
     private static void RemovingEvenNum() {
         // Удаление четных чисел
         for (int i = 0; i < lst.size(); i++) {

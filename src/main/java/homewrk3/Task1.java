@@ -8,7 +8,6 @@ package homewrk3;
 //        4) Найти среднее значение
 
 import java.util.ArrayList;
-import java.util.Scanner;
 import java.util.*;
 public class Task1 {
     static Random rnd = new Random();
@@ -19,10 +18,11 @@ public class Task1 {
             for (int i = 0; i < 10; i++) {
                lst.add(rnd.nextInt(20));
             }
+            // вывод списка
         System.out.println(lst);
-            // поиск минимального числа
+            // поиск и вывод минимального числа
         System.out.println(Collections.min(lst));
-        // поиск максимального числа
+        // поиск и вывод максимального числа
         System.out.println(Collections.max(lst));
 
         // Удаление четные числа
@@ -32,10 +32,7 @@ public class Task1 {
                     i--;
                 }
             }
+            // вывод списка
         System.out.println(lst);
     }
-
-
-
-
 }
